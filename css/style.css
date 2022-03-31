@@ -1,0 +1,230 @@
+body {
+	
+	margin: 0;
+	padding: 0;
+	font: 85% arial, hevetica, sans-serif;
+	text-align: center;
+	color: #800040;
+	background: #ae0000;
+	 
+}
+
+a:link {
+	
+	color: #800000;
+	
+}
+
+a:visited {
+	
+	color: #800040;
+	
+}
+
+a:focus {
+	
+	color: #804040;
+	
+}
+
+a:hover {
+	
+	color: #ff0080;
+	
+}
+
+a:active {
+	
+	color: #800080;
+	
+}
+
+h1, h2, h3 {
+	
+	margin: 0 0 0.5em;
+	
+}
+
+h2 {
+	
+	color: #008080;
+	font: 140% georgia, times, serif;  	
+}
+
+h2 a {
+	
+	text-decoration: none;
+	font: 110% georgia, times, serif;
+}
+
+h3 {
+	
+	color: #ff8000;
+	
+}
+
+#principal {
+	
+	margin: 1em auto;
+	width: 800px;
+	text-align: left;
+	background-color: #ffffff;
+	border: 1px solid #800040;
+}
+
+#cabecalho {
+	
+	height: 45px;
+	width: 100%;
+	background-color: #ff8000;
+	border-bottom: 1px solid #004040;
+	
+}
+
+#cabecalho h1 {
+	
+	position: absolute;
+	top: 15px;
+	margin-left: 10px;
+	line-height: 45px;
+	
+}
+
+#pularAoConteudo {
+	
+	width: 645px;
+	text-align: right;
+	position: relative;
+	top: 5px;
+	
+}
+
+#pularAoConteudo a {
+	
+	color: #408080;
+	text-decoration: none;
+}
+
+#menuNav {
+	
+	background: #ffcf9f;
+	color: #804040;
+	padding: 2px 0;
+	margin-bottom: 22px;
+	
+}
+
+#menuNav ul {
+	
+	margin: 0 0 0 20px;
+	padding: 0;
+	list-style-type: none;
+	border-left: 1px solid #800000;
+	
+}
+
+#menuNav li {
+	
+	display: inline;
+	padding: 0 10px;
+	border-right: 1px solid #804040;
+	
+}
+
+#menuNav li a {
+	
+	text-decoration: none;
+	color: #ff0000;
+	
+}
+
+#menuNav li a:hover {
+	
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #ff8040;
+	
+}
+
+#menu {
+	
+	float: right;
+	width: 165px;
+	border-left: 1px solid #004040;
+	padding-left: 15px;
+	
+}
+
+#menu ul {
+	
+	margin: 1em 0;
+	padding: 0;
+	
+}
+
+#menu ul li {
+	
+	margin: 0 0 1em;
+	padding: 0;
+	list-style-type: none; 
+	
+}
+
+#conteudo {
+	
+	width: 550px;
+	margin: 0 0 0 20px;
+	
+}
+
+#conteudo p {
+	
+	line-height: 170%;
+	
+}
+
+.divBlog ul {
+	
+	text-align: right;
+	margin: 1em 0;
+	padding: 0;
+	font-size: 95%;
+		
+}
+
+.divBlog li {
+	
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+	padding: 0 0 0 7px;
+	
+}
+
+.divBlog p {
+	
+	text-align: justify; 
+	
+}
+
+.imagefloat {
+	
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding: 2px;
+	border: 1px solid #004040;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#rodape {
+	
+	clear: right;
+	color: #ffffff;
+	text-align: left;
+	font-size: 90%;
+	background-color: #ff0000;
+	padding: 5px;
+	
+}
